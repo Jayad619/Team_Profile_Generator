@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jayad619/Team_Profile_Generator/issues"
   },
-  "homepage": "https://github.com/jayad619/Team_Profile_Generator#readme"
+  "homepage": "https://github.com/jayad619/Team_Profile_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
