@@ -1,5 +1,21 @@
-// array of questions that should be passed through inquirer
+class Employee {
+    constructor(name, id, email) {
+        this.name = name;
+        this.id = id;
+        this.email = email;
+    }
 
-// function to write object of class / return object of certain class
+    getName() {
+        return this.name;
+    }
 
-module.exports = {employeeQuestions, employeeFunctions};
+    getID() {
+        return this.id;
+    }
+
+    getEmail() {
+        return this.email;
+    }
+}
+
+module.exports = Employee; 

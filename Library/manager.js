@@ -1,5 +1,14 @@
-// array of questions that should be passed through inquirer
+const Employee = require('./Employee');
 
-// function to write object of class / return object of certain class
+class Manager extends Employee {
+    constructor(name, id, email, officeNumber) {
+        super(name, id, email);
+        this.officeNumber = officeNumber;
+    }
 
-module.exports = {managerQuestions, managerFunctions};
+    getOfficeNumber() {
+        return this.officeNumber;
+    }
+}
+
+module.export = Manager; 
