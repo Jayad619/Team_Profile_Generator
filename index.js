@@ -20,8 +20,12 @@ async function managerQuestions() {
         message: 'What is your office number please'
     }])
 
-    const templateContent = await fs.readFile('./index.html');
-    console.log((templateContent).toString())
+    const templateContent = await fs.readFile('dist/index.html');
+    const newTemplateContent = Object
+    .keys(answers)
+    .reduce((previous, current) => previous.replace(`{{${current}}}`, answers[current]), templateContent.toString()) 
+
+await fs.writeFile('index.html', newTemplateContent)
 }
 
 managerQuestions()
