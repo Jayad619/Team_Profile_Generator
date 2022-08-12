@@ -23,7 +23,7 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
 
-Deployed Link: https://anuur7.github.io/Team-Profile-Generator/
+Deployed Link:
 
 Link for recording: 
 
