@@ -1,4 +1,4 @@
-const Intern = require("../Library/itern")
+const Intern = require("../Library/intern")
 
 describe("Creates an Intern", () => {
     it ("Intern name gets printed", () => {

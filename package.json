@@ -4,17 +4,21 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jayad619/Team_Profile_Generator.git"
+        "type": "git",
+        "url": "git+https://github.com/jayad619/Team_Profile_Generator.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/jayad619/Team_Profile_Generator/issues"
+        "url": "https://github.com/jayad619/Team_Profile_Generator/issues"
     },
-    "homepage": "https://github.com/jayad619/Team_Profile_Generator#readme"
-  }
+    "homepage": "https://github.com/jayad619/Team_Profile_Generator#readme",
+    "dependencies": {
+        "inquirer": "^8.2.4",
+        "jest": "^28.1.3"
+    }
+}
