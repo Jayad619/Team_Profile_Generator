@@ -14,19 +14,19 @@ function promptManager() {
     inquirer.prompt([{
         // manager questions
         type: 'input',
-        name: 'name',
+        name: 'managerName',
         message: 'What is your name manager?',
     }, {
         type: 'input',
-        name: 'id',
+        name: 'managerId',
         message: 'Enter your ID number please',
     }, {
         type: 'input',
-        name: 'email',
+        name: 'managerEmail',
         message: 'Enter your email address please',
     }, {
         type: 'input',
-        name: 'office number',
+        name: 'managerOfficeNumber',
         message: 'What is your office number please',
     }, ])
     .then((answers) => {
@@ -77,20 +77,20 @@ function menu() {
       {
         // engineer questions
         type: 'input',
-        name: 'engineer name',
+        name: 'engineerName',
         message: 'Hi engineer, what is your name please?',
     }, 
     {
         type: 'input',
-        name: 'engineer id',
+        name: 'engineerId',
         message: 'Enter your ID number please'
     }, {
         type: 'input',
-        name: 'engineer email',
+        name: 'engineerEmail',
         message: 'Enter your email address please'
     }, {
         type: 'input',
-        name: 'engineer github',
+        name: 'engineerGithub',
         message: 'What is your github username?'
     },
 ]).then((answers)=>{
@@ -110,19 +110,19 @@ function promptIntern(){
     {
         // intern questions
         type: 'input',
-        name: 'intern name',
+        name: 'internName',
         message: 'Hi intern, what is your name?'
     }, {
         type: 'input',
-        name: 'intern id',
+        name: 'internId',
         message: 'Enter your ID number'
     }, {
         type: 'input',
-        name: 'intern email',
+        name: 'internEmail',
         message: 'Enter your email address'
     }, {
         type: 'input',
-        name: 'intern school',
+        name: 'internSchool',
         message: 'What school did you study at?'
     },
 ]).then((answers)=>{
