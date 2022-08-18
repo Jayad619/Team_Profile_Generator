@@ -34,7 +34,6 @@ h3{
 
 .card{
     border: 2px solid green;
-    box-shadow: 9px 8px black;
     background-color: whitesmoke;
     color: black;
 }
@@ -46,9 +45,9 @@ h3{
 }
 
 .list-card{
-    border: 2px solid gray;
+    border-top: 1px solid green;
     background-color: white;
-    color: black;
+    padding-bottom: 0.5rem;
 }
 
 li{
