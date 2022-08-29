@@ -27,4 +27,5 @@ Deployed Link:
 
 Link for recording: 
 
-![alt text](images/)
+Screenshot:
+<img width="1512" alt="Screenshot 2022-08-29 at 18 17 15" src="https://user-images.githubusercontent.com/102623563/187258318-dad5f861-01d8-4e9f-9b6d-ce8cca7a6321.png">
